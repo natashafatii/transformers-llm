@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ```bash
 cp .env.template .env
 # Edit .env file with your API keys
-```bash
+```
 
 5. **Download NLTK Data**
 ```bash
@@ -64,7 +64,7 @@ nltk.download('wordnet')
 ```
 ## 📊 Lab Experiments & Results
 
-### ** 1: Summarization**
+###  1: **Summarization**
 **Models Tested:** BART-Large-CNN, T5-Base  
 
 **Key Findings:**  
@@ -74,7 +74,7 @@ nltk.download('wordnet')
 
 ---
 
-### ** 2: Creative Text Generation**
+###  2: **Creative Text Generation**
 **Models Tested:** GPT-2, GPT-Neo  
 
 **Parameter Effects:**  
@@ -83,7 +83,7 @@ nltk.download('wordnet')
 
 ---
 
-### ** 3: Gemini Chatbot**
+###  3: **Gemini Chatbot**
 **Model Used:** gemini-2.5-flash  
 
 **Performance Metrics:**  
